@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Body Mass Index Calculator</string>
+    <string name="bmr_activity_name">Basal Metabolic Rate Calculator</string>
     <string name="action_settings">Settings</string>
     <string name="heightLabel">Height</string>
     <string name="height">Enter Your height [cm]</string>
@@ -10,4 +11,14 @@
     <string name="normal">Healthy range</string>
     <string name="over">Overweight</string>
     <string name="obese">Obese</string>
+    <string name="welcome_screen">Welcome in BMI Calculator App</string>
+    <string name="launchBmr">Launch BMR Calculator</string>
+    <string name="age">Enter Your age</string>
+    <string name="ageLabel">Age</string>
+    <string name="calculateBMR">Calculate BMR</string>
+    <string name="activityLevelLabel">Activity level</string>
+    <string name="launchDiet">"Launch diet recommendation"</string>
+    <string name="headerTextDiet">"What to eat during COVID-19?         You have been classified in the BMI category:" </string>
+    <string name="detailTextDiet">"that's why your diet should be based on:" </string>
+    <string name="back">Back</string>
 </resources>
