@@ -4,7 +4,9 @@
 
 # Środowisko wytwórcze:
 - narzędzie programistyczne: Android Studio 
-- język: Java
+- język: 
+	1) Java
+	2) Kotlin
 
 
 

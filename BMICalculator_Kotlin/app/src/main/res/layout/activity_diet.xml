@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".DietActivity">
+
+    <TextView
+        android:id="@+id/headerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25sp"
+        android:text="@string/headerTextDiet"/>
+    <TextView
+        android:id="@+id/detailsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp" />
+
+    <TextView
+    android:id="@+id/detailsTextView1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="15"
+    android:textColor="@color/colorPrimaryDark"
+    android:textSize="25sp"
+    android:text="@string/detailTextDiet"/>
+
+    <TextView
+    android:id="@+id/detailsTextView2"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="15"
+    android:textColor="@color/colorPrimary"
+    android:textSize="25sp"
+    android:text="@string/detailTextDiet"/>
+
+    <ImageView
+        android:id="@+id/resultIllustrationImageView"
+        android:layout_width="wrap_content"
+        android:layout_weight="50"
+        android:layout_height="0dp" />
+
+    <Button
+        android:id="@+id/btBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_arrow_back_black_24dp"
+        android:text="@string/back" />
+
+</LinearLayout>
