@@ -23,10 +23,10 @@ class BmiActivity : AppCompatActivity() {
             val intent = Intent(this, StatisticsActivity::class.java)
             startActivity(intent)
         }
-//        launchQuiz.setOnClickListener {
-//            val intent = Intent(this, QuizActivity::class.java)
-//            startActivity(intent)
-//        }
+        launchQuiz.setOnClickListener {
+            val intent = Intent(this, QuizActivity::class.java)
+            startActivity(intent)
+        }
         launchBmr.setOnClickListener {
             val intent = Intent(this, BmrActivity::class.java)
             startActivity(intent)
